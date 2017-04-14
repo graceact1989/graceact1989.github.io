@@ -64,6 +64,37 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-测试增量日志" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/04/14/测试增量日志/" class="article-date">
+  <time datetime="2017-04-14T10:17:26.676Z" itemprop="datePublished">2017-04-14</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="title-增量日志测试"><a href="#title-增量日志测试" class="headerlink" title="title:增量日志测试"></a>title:增量日志测试</h3><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>使用GitHub+Hexo 搭建了个人主页，此文档为了测试增量日志的效果。<br>并测试自己设置的定时任务脚本的运行效果</p>
+<h3 id="定时任务遇到的问题"><a href="#定时任务遇到的问题" class="headerlink" title="定时任务遇到的问题"></a>定时任务遇到的问题</h3><ul>
+<li>win10任务计划服务不可用</li>
+<li>  解决方案<br>  查看remote proceducre Call(RPC)和windows event log 是否关闭.如果关闭则开启.<br>  如果开启则 在开始—运行中输入cmd，打开后输入netsh winsock reset后确定，然后重启计算机即可解决。<br>  需要使用管理员权限启动cmd</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/04/14/测试增量日志/" data-id="cj1hp76en0000ikusrwl1ad8w" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-Daily" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/04/12/Daily/" class="article-date">
@@ -202,6 +233,10 @@ npm info underscore （如果上面配置正确这个命令会有字符串respon
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2017/04/14/测试增量日志/">(no title)</a>
+          </li>
         
           <li>
             <a href="/2017/04/12/Daily/">Start With Hexo + github 遇到的问题</a>
